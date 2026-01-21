@@ -1,4 +1,4 @@
-# 🤖 Discord Yaps BOT
+# 🤖 Discord Yaps BOT (Paid)
 
 > An intelligent Discord automation bot with AI-powered reply system using Groq API, designed for natural conversation automation and smart message handling across multiple accounts.
 
@@ -23,7 +23,7 @@
 ## 🎯 Overview
 
 <div align="center">
-  <img src="images/image.png" alt="Overview" width="500">
+  <img src="images/image.png" alt="Overview" width="800">
   <p><em>An advanced Discord automation bot that uses AI (Groq LLaMA 3.1) to generate natural, human-like responses. The bot can monitor multiple Discord channels, reply to messages intelligently, and maintain conversations while appearing completely natural.</em></p>
 </div>
 
