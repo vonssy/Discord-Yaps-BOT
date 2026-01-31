@@ -158,13 +158,10 @@ Create `accounts.json` in the project directory:
 Create `proxy.txt` in the project directory:
 
 ```
-192.168.1.1:8080
-http://192.168.1.2:8080
-http://username:password@192.168.1.3:8080
+http://username:password@ip:port
 ```
 
 **Supported formats:**
-- `http://IP:PORT`
 - `http://username:password@IP:PORT`
 
 ## 🚀 Usage
@@ -192,14 +189,14 @@ When you run the bot, you'll see 4 main options:
 4. Copy the Channel ID you need
 
 #### 2. **Setup Accounts**
-- Add/edit server configurations
+- Add / edit / delete server configurations
 - Create channel settings
 - Configure AI or message mode
 - Set intervals and messages
 
 **Steps:**
-1. Select account
-2. Add/select server
+1. Select / Add / Delete account
+2. Add / select / delete server
 3. Choose channel type:
    - **GM**: Fixed message mode
    - **General (AI)**: AI conversation mode
@@ -226,7 +223,7 @@ When you run the bot, you'll see 4 main options:
 {
     "gm": {
         "id": "1234567890",
-        "interval": 60,
+        "interval": 360,
         "message": "Good morning!"
     }
 }
@@ -240,7 +237,7 @@ When you run the bot, you'll see 4 main options:
 {
     "general": {
         "id": "9876543210",
-        "interval": 30,
+        "interval": 10,
         "useAI": true
     }
 }
@@ -255,7 +252,7 @@ When you run the bot, you'll see 4 main options:
 {
     "custom-chat": {
         "id": "1122334455",
-        "interval": 45,
+        "interval": 15,
         "useAI": true
     }
 }
